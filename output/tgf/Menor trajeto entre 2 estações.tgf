@@ -1,0 +1,42 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+#
+1 2 [c] Carregar os pacotes do sistema
+2 3 [s] Usuário digitar a opção 1
+3 4 [e] system pedir o nome da estação de origem
+4 5 [s] Usuário digitar o nome da estação de origem
+5 6 [e] system pedir o nome da estação de destino
+6 7 [s] Usuário digitar o nome da estação de destino
+7 8 [e] system pedir a quantidade de trajetos
+8 9 [s] Usuário digitar a n-quantidades de trajetos
+9 10 [e] system receber se deseja excluir alguma linha
+10 11 [s] Usuário digitar 'N'
+11 12 [e] system exibir as n-quantidades de trajetos entre as estações de origem
+12 13 [c] Exibir N-quantidades de trajetos entre as estações
+3 11 [e] system Ao pressionar ESC com uma codificação diferente
+4 4 [s] Usuário Deve digitar novamente o nome da estação
+4 11 [s] Usuário Pressionar o botão ESC
+5 11 [e] system Ao pressionar ESC com uma codificação diferente
+6 6 [s] Usuário Deve digitar novamente o nome da estação
+6 11 [s] Usuário Pressionar o botão ESC
+7 11 [e] system Ao pressionar ESC com uma codificação diferente
+7 13 [e] system Quantidade negativa ou diferente de um número
+8 11 [s] Usuário Pressionar o botão ESC
+10 11 [s] Usuário Pressionar o botão ESC
+10 14 [s] Usuário digitar S
+14 15 [e] system pedir linha do metrô
+15 11 [s] Usuário digitar a linha do metrô
+10 10 [s] Usuário digitar qualquer outra coisa alem de S e/ou N
